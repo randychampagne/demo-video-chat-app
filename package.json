@@ -1,0 +1,23 @@
+{
+  "name": "simplewebrtc-messenger",
+  "version": "0.0.1",
+  "description": "[A tutorial on building a WebRTC video chat app using SimpleWebRTC.](https://www.sitepoint.com/webrtc-video-chat-application-simplewebrtc/)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Randy Champagne <champagne.randy@gmail.com> (http://randychampagne.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "handlebars": "4.1.2",
+    "jquery": "3.4.1",
+    "semantic-ui-css": "2.4.1",
+    "simplewebrtc": "3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1"
+  }
+}
